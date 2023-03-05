@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-web-app",
+  "version": "1.0.0",
+  "description": "NodejsWebApp",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": {
+    "name": "Ivan Ishchenko"
+  },
+  "dependencies": {
+    "express": "^4.16.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.21.0"
+  },
+  "eslintConfig": {}
+}
