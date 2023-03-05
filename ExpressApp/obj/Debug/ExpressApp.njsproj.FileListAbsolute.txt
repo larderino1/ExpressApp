@@ -1,0 +1,3 @@
+D:\unik\maga\2\devops\ExpressApp\ExpressApp\obj\Debug\ExpressApp.njsproj.AssemblyReference.cache
+D:\unik\maga\2\devops\ExpressApp\ExpressApp\obj\Debug\ExpressApp.njsproj.CoreCompileInputs.cache
+D:\unik\maga\2\devops\ExpressApp\ExpressApp\bin\Microsoft.NodejsTools.WebRole.dll
