@@ -1,3 +1,0 @@
-D:\unik\maga\2\devops\ExpressApp\NodejsWebApp\obj\Debug\NodejsWebApp.njsproj.AssemblyReference.cache
-D:\unik\maga\2\devops\ExpressApp\NodejsWebApp\obj\Debug\NodejsWebApp.njsproj.CoreCompileInputs.cache
-D:\unik\maga\2\devops\ExpressApp\NodejsWebApp\bin\Microsoft.NodejsTools.WebRole.dll
