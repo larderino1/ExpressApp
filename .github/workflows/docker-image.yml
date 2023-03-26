@@ -17,13 +17,12 @@ jobs:
       with: 
         node-version:  '14.x'
     
-    - name: Change working directory to NodejsWebApp
-      working-directory: ./NodejsWebApp
-    
     - name: NPM Install
+      working-directory: ./NodejsWebApp
       run: npm install
       
     - name: Run Lint Code
+      working-directory: ./NodejsWebApp
       run: npm run lint
       
     - name: Build the Docker image
