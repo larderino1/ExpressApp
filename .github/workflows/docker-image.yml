@@ -40,7 +40,7 @@ jobs:
       if: success() 
       
     - name: Run
-      run: docker run --memory=10m --cpus=1 -p 49160:80 ivish/node-web-app
+      run: docker run --memory=1m --cpus=1 -p 49160:80 ivish/node-web-app
       
     - name: Send request
       run: curl -i localhost:49160 
