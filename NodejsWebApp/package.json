@@ -4,7 +4,8 @@
   "description": "NodejsWebApp",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "lint": "eslint . "
   },
   "author": {
     "name": "Ivan Ishchenko"
