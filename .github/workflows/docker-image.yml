@@ -41,7 +41,7 @@ jobs:
       
     - name: Pull and Run
       run: |
-        docker pull ivish/node-web-app:latest
-        docker run --memory=10m --cpus=1 -p 49160:80 ivish/node-web-app
+        docker pull ${{ secrets.DOCKER_USERNAME }}/node-web-app:latest
+        docker run --memory=10m --cpus=1 -p 49160:80 ${{ secrets.DOCKER_USERNAME }}/node-web-app
         sleep 5 
         curl -i localhost:49160 
