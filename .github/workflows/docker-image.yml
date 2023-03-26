@@ -27,7 +27,7 @@ jobs:
       
     - name: Build the Docker image
       working-directory: ./NodejsWebApp
-      run: docker build . --file Dockerfile --tag ivish/node-web-app:$(date +%s)
+      run: docker build . --file Dockerfile --tag ivish/node-web-app:latest
       if: success()
       
     - name: Push Docker Image
