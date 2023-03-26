@@ -17,6 +17,9 @@ jobs:
       with: 
         node-version:  '14.x'
     
+    - name: Change working directory to NodejsWebApp
+      working-directory: ./NodejsWebApp/
+    
     - name: NPM Install
       run: npm install
       
