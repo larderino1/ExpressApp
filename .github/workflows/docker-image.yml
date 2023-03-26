@@ -43,5 +43,4 @@ jobs:
       run: | 
         docker pull ${{ secrets.DOCKER_USERNAME }}/node-web-app:latest
         docker run --memory=20m --cpus=1 -p 49160:80 -d ivish/node-web-app
-        speep 5
         curl -i localhost:49160
