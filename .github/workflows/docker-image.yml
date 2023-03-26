@@ -39,8 +39,8 @@ jobs:
     - run: docker push ivish/node-web-app
       if: success() 
       
-    - name: Run
-      run: docker run --memory=20m --cpus=1 -p 49160:80 ivish/node-web-app
-      
-    - name: Send request
-      run: curl -i localhost:49160 
+    - name: Pull & Run
+      run: | 
+        docker pull ${{ secrets.DOCKER_USERNAME }}/node-web-app:latest
+        docker run --memory=20m --cpus=1 -p 49160:80 ivish/node-web-app
+        curl -i localhost:49160
