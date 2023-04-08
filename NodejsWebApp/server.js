@@ -11,6 +11,10 @@ app.get('/', function (req, res) {
     res.send('Hello World');
 });
 
+app.get('/health', function (req, res) {
+    res.send('service is alive');
+});
+
 app.listen(PORT, HOST, function () {
     console.log('server working on http://' + HOST + ':' + PORT);
 });

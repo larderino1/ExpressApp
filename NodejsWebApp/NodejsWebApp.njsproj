@@ -29,6 +29,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include=".dockerignore" />
+    <Content Include="nginx.conf" />
+    <Content Include="service.yaml" />
+    <Content Include="deployment.yaml">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="Dockerfile" />
     <Content Include="package-lock.json" />
     <Content Include="server.js" />
